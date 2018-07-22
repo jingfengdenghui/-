@@ -1,6 +1,6 @@
 package 建造者模式;
 
-public class Actor {
+public class Actor implements Cloneable {
 	
 	private String type;
 	private String sex;
@@ -37,7 +37,6 @@ public class Actor {
 	public void setHairstyle(String hairstyle) {
 		this.hairstyle = hairstyle;
 	}
-	
 	
 	
 
